@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="DescriptionDOnSuite">
+  <test  parallel="tests" name="post_Test">
+    <classes>
+      <class name="TestScripts.testng3post"/>
+    </classes>
+  </test> <!-- post_put_Test -->
+  
+  <test  parallel="tests" name="put_Test">
+    <classes>
+      <class name="TestScripts.testng3put"/>
+    </classes>
+  </test> <!-- post_put_Test -->
+
+</suite> <!-- DescriptionDOnSuite -->

@@ -1,0 +1,4 @@
+https://reqres.in/api/users/2È{"name":"morpheus","job":"leader","updatedAt":"2026-04-28T14:47:11.715Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_a","message":"Your data persists here. Add auth, logs, and custom schemas to build a real backend.","cta":{"label":"See example app","url":"https://app.reqres.in/examples/notes-app"},"context":"legacy_success"}}{
+    "name": "morpheus",
+    "job": "leader"
+}
