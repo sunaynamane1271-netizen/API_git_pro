@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="retryASuite">
+  <test thread-count="5" name="retryATest">
+    <classes>
+      <class name="TestScripts.testng5"/>
+    </classes>
+  </test> <!-- retryATest -->
+</suite> <!-- retryASuite -->

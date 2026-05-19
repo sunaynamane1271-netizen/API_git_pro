@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T13:33:58 IST" name="DataDrSuite" finished-at="2026-04-24T13:34:06 IST" duration-ms="7420">
+    <groups>
+    </groups>
+    <test started-at="2026-04-24T13:33:58 IST" name="DataDrTest" finished-at="2026-04-24T13:34:06 IST" duration-ms="7420">
+      <class name="TestScripts.testng1">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:TestScripts.testng1@1a75e76a]" started-at="2026-04-24T13:33:58 IST" name="testSetUp" finished-at="2026-04-24T13:33:58 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method signature="StatuscodeValidateNexecute(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.testng1@1a75e76a]" started-at="2026-04-24T13:33:58 IST" name="StatuscodeValidateNexecute" data-provider="request_Data" finished-at="2026-04-24T13:34:04 IST" duration-ms="5355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nayna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SrQA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatuscodeValidateNexecute -->
+        <test-method signature="StatuscodeValidateNexecute(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.testng1@1a75e76a]" started-at="2026-04-24T13:34:04 IST" name="StatuscodeValidateNexecute" data-provider="request_Data" finished-at="2026-04-24T13:34:05 IST" duration-ms="1090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunayna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QASDET]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatuscodeValidateNexecute -->
+        <test-method signature="StatuscodeValidateNexecute(java.lang.String,java.lang.String)[pri:0, instance:TestScripts.testng1@1a75e76a]" started-at="2026-04-24T13:34:05 IST" name="StatuscodeValidateNexecute" data-provider="request_Data" finished-at="2026-04-24T13:34:06 IST" duration-ms="702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QALead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatuscodeValidateNexecute -->
+      </class> <!-- TestScripts.testng1 -->
+    </test> <!-- DataDrTest -->
+  </suite> <!-- DataDrSuite -->
+</testng-results>

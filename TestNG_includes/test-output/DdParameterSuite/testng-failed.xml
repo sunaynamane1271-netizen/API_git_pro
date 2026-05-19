@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DdParameterSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DdParameterTest1(failed)">
+    <parameter name="req_name" value="Nayna"/>
+    <parameter name="req_job" value="QALead"/>
+    <classes>
+      <class name="TestScripts.testng2">
+        <methods>
+          <include name="creatLogFile"/>
+          <include name="testSetUp"/>
+          <include name="ResponsebodyValidateNexecute"/>
+        </methods>
+      </class> <!-- TestScripts.testng2 -->
+    </classes>
+  </test> <!-- DdParameterTest1(failed) -->
+  <test thread-count="5" name="DdParameterTest2(failed)">
+    <parameter name="req_name" value="Suayna"/>
+    <parameter name="req_job" value="Sr.QA"/>
+    <classes>
+      <class name="TestScripts.testng2">
+        <methods>
+          <include name="creatLogFile"/>
+          <include name="testSetUp"/>
+          <include name="ResponsebodyValidateNexecute"/>
+        </methods>
+      </class> <!-- TestScripts.testng2 -->
+    </classes>
+  </test> <!-- DdParameterTest2(failed) -->
+</suite> <!-- Failed suite [DdParameterSuite] -->
